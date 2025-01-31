@@ -89,7 +89,7 @@ function handleClick(event) {
     const winInfo = checkWinner(currentPlayer);
     if (winInfo) {
       drawWinningLine(winInfo);
-      setTimeout(() => alert(`${currentPlayer} wins!`), 500);
+      setTimeout(() => alert(`${currentPlayer} ==> برنده بازی!`), 500);
       gameActive = false;
       return;
     }
